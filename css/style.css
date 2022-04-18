@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to right, rgb(67, 67, 233), yellow);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    margin: 50px 0 15px 20px;
+}
+
+img {
+    opacity: 50%;
+    border: 3px solid black;
+}
+
+main{
+    margin-top: 90px;
+}
+
+.importo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.informativa{
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.counter{
+    font-size: 30px;
+    margin: 50px 10px 10px 10px;
+}
+
+.footer{
+    font-style: italic;
+    margin-top: 70px;
+}
+
+.button {
+    margin: 0 10px 0 10px;
+    width: 50px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: rgb(97, 96, 96);
+    background-color: rgb(160, 160, 220);
+}
+
+#esito{
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#submit{
+    margin: 35px 10px 0 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 30px;
+    color: rgb(97, 96, 96);
+    background-color: rgb(160, 160, 220);
+}
+
+.button:hover{
+    background-color: rgb(226, 226, 151);
+}
+
+#submit:hover{
+    background-color: rgb(226, 226, 151);
+}
+
+#donation{
+    margin: 10px 10px 10px 10px;
+}
