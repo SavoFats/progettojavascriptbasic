@@ -15,7 +15,7 @@ function sottrai(){
 
 function invia() {
     if (counter !=0) {
-        document.getElementById("esito").innerHTML = "Grazie per la tua donazione di € " + counter;
+        document.getElementById("esito").innerHTML = "Grazie per la tua donazione di € " + counter + ",00";
     } else {
         document.getElementById("esito").innerHTML = "Non hai selezionato nessun importo!";
     }
