@@ -18,9 +18,9 @@ function decrease(){
 
 function submit() {
     if (counter !=0) {
-        document.getElementById("esito").innerHTML = "Grazie per la tua donazione di € " + counter + ",00";
+        document.getElementById("result").innerHTML = "Grazie per la tua donazione di € " + counter + ",00";
     } else {
-        document.getElementById("esito").innerHTML = "Non hai selezionato nessun importo!";
+        document.getElementById("result").innerHTML = "Non hai selezionato nessun importo!";
     }
 } 
 

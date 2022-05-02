@@ -25,14 +25,14 @@ main{
     margin-top: 90px;
 }
 
-.importo{
+.amount{
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: bold;
 }
 
-.informativa{
+.info{
     font-style: italic;
     margin-top: 7px;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ main{
     background-color: rgb(160, 160, 220);
 }
 
-#esito{
+#result{
     margin-top: 25px;
     font-style: italic;
     font-size: 20px;
