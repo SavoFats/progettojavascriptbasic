@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Dona x l'Ucraina</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="title-container">
-        <h1 class="title">Aiutiamo gli Ucraini </h1>
-        <img src="/img/piange.jpg" alt="">
+      <h1 class="title">Aiutiamo gli Ucraini</h1>
+      <img src="/img/piange.jpg" alt="" />
     </header>
-   
+
     <main>
-        <div>
-            <p class="importo">Scegli l'importo che vuoi donare:</p>
-            <p class="informativa">(Tutto l'importo raccolto verrà devolto alle associazioni che si occupano di fornire beni di prima necessità a tutte le persone innocenti presenti in questo momento nel territorio di guerra.)</p>
-        </div>
-    
-        <div class="counter">
-            <button onclick="sottrai()" class="button">-</button>
-            <span id="donation">€ 0</span>
-            <button onclick="aggiungi()" class="button">+</button>
-            <br>
-            <button id="submit" onclick="invia()">Invia</button>
-            <p id= "esito"></p>
-        </div>
-        
+      <div>
+        <p class="importo">Scegli l'importo che vuoi donare:</p>
+        <p class="informativa">
+          (Tutto l'importo raccolto verrà devolto alle associazioni che si
+          occupano di fornire beni di prima necessità a tutte le persone
+          innocenti presenti in questo momento nel territorio di guerra.)
+        </p>
+      </div>
+
+      <div class="counter">
+        <button id="decrease" class="button">-</button>
+        <span id="donation">€ 0</span>
+        <button id="increase" class="button">+</button>
+        <br />
+        <button id="submit">Invia</button>
+        <p id="esito"></p>
+      </div>
     </main>
     <footer class="footer">
-        <p class="goodbye"> Il vostro contributo è fondamentale, grazie.</p>
+      <p class="goodbye">Il vostro contributo è fondamentale, grazie.</p>
     </footer>
 
-<script src="/js/script.js"></script>
-
-</body>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
